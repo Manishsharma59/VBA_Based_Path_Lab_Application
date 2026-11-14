@@ -1,0 +1,286 @@
+Write a VBA code to create below buttons on Userform1 Hematology, CBC, Hematology, Semen, Urine, Blood_Group, Serum_Bilirubin, Sugar, Search, Show Application, Exit Application.
+Click on CBC will open Hematology Userform
+Click on CBC will open CBC Userform
+Click on CBC will open Semen Userform
+Click on CBC will open Blood_Group Userform
+Click on CBC will open Serum_Bilirubin Userform
+Click on CBC will open Sugar Userform
+Click on Search will open Search Userform
+Click on Show Application will open "Data" Sheet
+Click on Exit Application will closed the application
+
+
+Hematology Prompt
+Write a VBA code for Hematology Userform with below field, UserForm Name is be "Hematology"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Hematology date and time, store this value in Hematology_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in Hematology_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in Hematology_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in Hematology_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Hematology_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Hematology_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "G" Column without making any change in the sheet.	
+HEMOGLOBIN	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "H" Column without making any change in the sheet.
+
+TOTAL LEUCOCYTE COUNT (TLC)	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "I" Column without making any change in the sheet.
+				
+NEUTROPHILS - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "J" Column without making any change in the sheet.
+
+LYMPHOCYTES - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "K" Column without making any change in the sheet.
+
+EOSINOPHILS	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "L" Column without making any change in the sheet.
+
+MONOCYTES - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "M" Column without making any change in the sheet.
+	
+BASOPHILS	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "N" Column without making any change in the sheet.
+			
+ESR	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "O" Column without making any change in the sheet.
+	
+PCV/HCT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "P" Column without making any change in the sheet.
+	
+MCV	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Q" Column without making any change in the sheet.
+	
+MCH	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "R" Column without making any change in the sheet.
+	
+MCHC	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "S" Column without making any change in the sheet.
+	
+RBC COUNT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "T" Column without making any change in the sheet.
+	
+PLATELET COUNT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "U" Column without making any change in the sheet.
+	
+BLOOD GROUP (ABO) RH	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "V" Column without making any change in the sheet.
+		
+MALARIA ANTIGEN CARD TEST - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "W" Column without making any change in the sheet.
+			
+
+S typhi "O" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "X" Column without making any change in the sheet.
+
+S typhi "H" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Y" Column without making any change in the sheet.
+
+S paratyphi "AH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Z" Column without making any change in the sheet.
+
+S paratyphi "BH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AA" Column without making any change in the sheet.
+	
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AB" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AC" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AD" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "Urine_Database" sheet as instructed in front of each variable and print the report "Urine-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+
+Urine Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is be "Urine"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in Urine_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in Urine_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in Urine_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in Urine_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Urine_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Urine_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "G" Column without making any change in the sheet.	
+Volumne	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "H" Column without making any change in the sheet.
+
+Colour	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "I" Column without making any change in the sheet.
+				
+Appearance - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "J" Column without making any change in the sheet.
+
+pH - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "K" Column without making any change in the sheet.
+
+Specific Gravity	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "L" Column without making any change in the sheet.
+
+Urine Protein - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "M" Column without making any change in the sheet.
+	
+Urine Sugar	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "N" Column without making any change in the sheet.
+			
+R.B.C	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "O" Column without making any change in the sheet.
+	
+Pus Cells - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "P" Column without making any change in the sheet.
+	
+Epithelial Cells	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "Q" Column without making any change in the sheet.
+	
+Casts	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "R" Column without making any change in the sheet.
+	
+Crystals	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "S" Column without making any change in the sheet.
+	
+Bacteria	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "T" Column without making any change in the sheet.
+	
+Others	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "U" Column without making any change in the sheet.
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "V" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "W" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Urine_Database" Sheet "X" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "Urine_Database" sheet as instructed in front of each variable and print the report "Urine-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+
+Semen Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is be "Urine"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in Semen_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in Semen_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in Semen_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in Semen_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Semen_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Semen_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "G" Column without making any change in the sheet.	
+Days since last ejaculation	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "H" Column without making any change in the sheet.
+
+Method specimen obtained	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "I" Column without making any change in the sheet.
+				
+Reaction - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "J" Column without making any change in the sheet.
+
+Appearance - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "K" Column without making any change in the sheet.
+
+Liquification	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "L" Column without making any change in the sheet.
+
+Volume - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "M" Column without making any change in the sheet.
+	
+Sperm Count	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "N" Column without making any change in the sheet.
+			
+Excellent	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "O" Column without making any change in the sheet.
+	
+Good - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "P" Column without making any change in the sheet.
+	
+Sluggish	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "Q" Column without making any change in the sheet.
+	
+Dead	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "R" Column without making any change in the sheet.
+	
+Normal	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "S" Column without making any change in the sheet.
+	
+Abnormal	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "T" Column without making any change in the sheet.
+	
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "U" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "V" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Semen_Database" Sheet "W" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "Semen_Database" sheet as instructed in front of each variable and print the report "Semen-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+
+BloodGroup Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is be "Blood_Group"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in BloodGroup_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in BloodGroup_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in BloodGroup_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in BloodGroup_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in BloodGroup_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in BloodGroup_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "G" Column without making any change in the sheet.	
+ABO	- This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "H" Column without making any change in the sheet.
+
+RH	- This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "I" Column without making any change in the sheet.	
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "J" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "K" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "BloodGroup_Database" Sheet "L" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "BloodGroup_Database" sheet as instructed in front of each variable and print the report "BloodGroup-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+
+Sugar Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is be "Sugar"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in Sugar_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in Sugar_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in Sugar_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in Sugar_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Sugar_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Sugar_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "G" Column without making any change in the sheet.	
+Fasting	- This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "H" Column without making any change in the sheet.
+
+PP	- This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "I" Column without making any change in the sheet.	
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "J" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "K" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Sugar_Database" Sheet "L" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "Sugar_Database" sheet as instructed in front of each variable and print the report "Sugar-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+
+Bilirubin Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is "Serum_Bilirubin"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in Bilirubin_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in Bilirubin_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in Bilirubin_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in Bilirubin_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Bilirubin_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Bilirubin_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "G" Column without making any change in the sheet.	
+Serum Bilirubin Total	- This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "H" Column without making any change in the sheet.
+
+Serum Bilirubin Conjugated	- This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "I" Column without making any change in the sheet.
+
+Serum Bilirubin Unconjugated	- This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "J" Column without making any change in the sheet.		
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "K" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "L" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Bilirubin_Database" Sheet "M" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "Bilirubin_Database" sheet as instructed in front of each variable and print the report "Bilirubin-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
+
+HIV Prompt
+Write a VBA code for Urine Userform with below field, UserForm Name is "HIV"
+PATIENT ID - This will be string field, PATIENT ID will be combination of Urine date and time, store this value in HIV_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in HIV_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in HIV_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in HIV_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in HIV_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in HIV_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "G" Column without making any change in the sheet.	
+HbsAg	- This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "H" Column without making any change in the sheet.
+
+HIV	- This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "I" Column without making any change in the sheet.
+
+HCV	- This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "J" Column without making any change in the sheet.		
+		
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "K" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "L" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "HIV_Database" Sheet "M" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "HIV_Database" sheet as instructed in front of each variable and print the report "HIV-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
