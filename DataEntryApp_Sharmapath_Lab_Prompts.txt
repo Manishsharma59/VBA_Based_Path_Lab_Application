@@ -17,8 +17,7 @@ DATE OF RECEIPT - This will be string field, store this value in Hematology_Data
 
 PATIENT NAME - This will be string field, user will enter this value,  store this value in Hematology_Database Sheet "C" Column without making any change in the sheet.
 AGE	- This will be string field, user will enter this value,  store this value in Hematology_Database Sheet "D" Column with making any change in the sheet.
-DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, store this value in Hematology_Database Sheet "E" Column without making any change in the sheet.
-
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, and style value for this dropbox will be 0(If value is not available in dropdown then user should be able to enter value manually, store this value in CBC_Database Sheet "E" Column without making any change in the sheet.
 GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in Hematology_Database Sheet "F" Column without making any change in the sheet.
 MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "G" Column without making any change in the sheet.	
 HEMOGLOBIN	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "H" Column without making any change in the sheet.
@@ -51,28 +50,81 @@ PLATELET COUNT	- This will be string field, user will enter this value in userfo
 	
 BLOOD GROUP (ABO) RH	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "V" Column without making any change in the sheet.
 		
-MALARIA ANTIGEN CARD TEST - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "W" Column without making any change in the sheet.
-			
+MALARIA ANTIGEN CARD TEST - This will be Dropbox field with values in dropdown "Data" Sheet "G" Column, user will enter this value in userform, and style value will be 0 and it will be stored  "Hematology_Database" Sheet "W" Column without making any change in the sheet.
 
-S typhi "O" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "X" Column without making any change in the sheet.
+WIDAL TEST -This will be Dropbox field with values in dropdown "Data" Sheet "H" Column, user will enter this value in userform, and style value will be 0 and it will be stored  "Hematology_Database" Sheet "W" Column without making any change in the sheet.		
 
-S typhi "H" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Y" Column without making any change in the sheet.
+S typhi "O" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Y" Column without making any change in the sheet.
 
-S paratyphi "AH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Z" Column without making any change in the sheet.
+S typhi "H" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "Z" Column without making any change in the sheet.
 
-S paratyphi "BH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AA" Column without making any change in the sheet.
+S paratyphi "AH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AA" Column without making any change in the sheet.
+
+S paratyphi "BH" - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AB" Column without making any change in the sheet.
 	
-RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AB" Column without making any change in the sheet.
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AC" Column without making any change in the sheet.
 		
-Remarks - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AC" Column without making any change in the sheet.
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AD" Column without making any change in the sheet.
 
-Payment - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AD" Column without making any change in the sheet.
+Payment - This will be string field, user will enter this value in userform and it will be stored  "Hematology_Database" Sheet "AE" Column without making any change in the sheet.
 
 There should be three more button in footer 
-Print - After the click on Print button, data will save in "Urine_Database" sheet as instructed in front of each variable and print the report "Urine-Report"
+Print - After the click on Print button, data will save in "Hematology_Database" sheet as instructed in front of each variable and print the report "Urine-Report"
 Clear - After click on this button data should be cleaned from form
 Back - After click on this button user should come back to Home_Window
 
+CBC Prompt
+Write a VBA code for CBC Userform with below field, UserForm Name is be "CBC"
+PATIENT ID - This will be string field, PATIENT ID will be combination of CBC date and time, store this value in CBC_Database Sheet "A" Column without making any change in the sheet. It will generate automatically.
+DATE OF RECEIPT - This will be string field, store this value in CBC_Database Sheet "B" Column without making any change in the sheet. It will generate automatically.
+
+PATIENT NAME - This will be string field, user will enter this value,  store this value in CBC_Database Sheet "C" Column without making any change in the sheet.
+AGE	- This will be string field, user will enter this value,  store this value in CBC_Database Sheet "D" Column with making any change in the sheet.
+DOCTOR NAME	- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "B" Column, and style value for this dropbox will be 0(If value is not available in dropdown then user should be able to enter value manually, store this value in CBC_Database Sheet "E" Column without making any change in the sheet.
+
+GENDER		- This will be string field, This will be drop down and Option will come in drop down from "Data" Sheet and "A" Column, , store this value in CBC_Database Sheet "F" Column without making any change in the sheet.
+MOBILE - 	This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "G" Column without making any change in the sheet.	
+HEMOGLOBIN	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "H" Column without making any change in the sheet.
+
+TOTAL LEUCOCYTE COUNT (TLC)	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "I" Column without making any change in the sheet.
+				
+NEUTROPHILS - This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "J" Column without making any change in the sheet.
+
+LYMPHOCYTES - This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "K" Column without making any change in the sheet.
+
+EOSINOPHILS	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "L" Column without making any change in the sheet.
+
+MONOCYTES - This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "M" Column without making any change in the sheet.
+	
+BASOPHILS	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "N" Column without making any change in the sheet.
+			
+ESR	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "O" Column without making any change in the sheet.
+	
+PCV/HCT	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "P" Column without making any change in the sheet.
+	
+MCV	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "Q" Column without making any change in the sheet.
+	
+MCH	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "R" Column without making any change in the sheet.
+	
+MCHC	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "S" Column without making any change in the sheet.
+	
+RBC COUNT	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "T" Column without making any change in the sheet.
+	
+PLATELET COUNT	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "U" Column without making any change in the sheet.
+	
+BLOOD GROUP (ABO) RH	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "V" Column without making any change in the sheet.
+
+	
+RESULT	- This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "W" Column without making any change in the sheet.
+		
+Remarks - This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "X" Column without making any change in the sheet.
+
+Payment - This will be string field, user will enter this value in userform and it will be stored  "CBC_Database" Sheet "Y" Column without making any change in the sheet.
+
+There should be three more button in footer 
+Print - After the click on Print button, data will save in "CBC_Database" sheet as instructed in front of each variable and print the report "Urine-Report"
+Clear - After click on this button data should be cleaned from form
+Back - After click on this button user should come back to Home_Window
 
 Urine Prompt
 Write a VBA code for Urine Userform with below field, UserForm Name is be "Urine"
